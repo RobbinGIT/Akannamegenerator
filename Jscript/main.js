@@ -1,10 +1,5 @@
 
-
 function generateName(){
-
- var thisForm = document.getElementById("form");
- thisForm.addEventListener("submit", (e) => { e.preventDefault();
-
 
   var date = document.getElementById('date').value;
   
