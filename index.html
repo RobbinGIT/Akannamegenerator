@@ -71,63 +71,39 @@
           <div class="col-md-7" style="background: #fca2a2">
             <div class="container text-center m-2">Enter Your Details</div>
             <div class="container wrapper">
-              <form id="form" action="/action_page.php" method="post">
+              <div id="form" method="post">
                 <div class="container ml-5">
                   <div class="row">
-                    <p class="mt-2">
-                      <label>Date </label>
-                      <input
-                        type="number"
-                        class="inputBox"
-                        id="date"
-                        name="dDate"
-                        required
-                      />
-                    </p>
-                    <p class="mt-2">
-                      <label>Month</label>
-                      <input
-                        type="number"
-                        class="inputBox"
-                        id="month"
-                        name="mMonth"
-                        required
-                      />
-                    </p>
-                    <p class="mt-2">
-                      <label> Year</label>
-                      <input
-                        type="number"
-                        class="inputBox"
-                        id="year"
-                        name="yYear"
-                        required
-                      />
-                    </p>
-                    <br />
+                        <p class="">
+                          <label>Day</label>
+                            <input type="text" id="day" placeholder="Day in digits" required />
+                        </p>
+                        <p class="">
+                          <label>Month</label>
+                          <input type="text" id="month" placeholder="Month in digits" required />
+                        </p>
+                        <p class="">
+                          <label>Year</label> 
+                          <input type="text" id="year" placeholder="Year in digits" required />
+                        </p>
                   </div>
-                  <div class="container ml-5">
-                    <label class="ml-5">Gender</label>
-                    <select id="gender" required>
-                      <option value="Female">Female</option>
-                      <option value="Male">Male</option>
-                    </select>
-                  </div>
+                    <div class="container">
+                        
+                        <label>Gender</label>
+                            <input type="radio" name="gender" id="gender" value="male" checked /> Male
+                            
+                            <input type="radio" name="gender" id="gender" value="female" /> Female
+                      
+                    </div>
+                      <div class="container mt-2 submitbtn">
+                        <input type="submit" class="btn-1" value="Submit" onclick="output()" />
 
-                  <div class="container mt-2 submitbtn">
-                    <input
-                      type="submit"
-                      value="Submit"
-                      id="submitButton"
-                      class="btn btn-primary"
-                      onclick="generateName(); return false"
-                    />
-                  </div>
-                  <div class="container">
-                    <p class="mt-3 text-primary" id="result"></p>
+                      </div>
+                      <div id="outcome">
+                        <p id="results">
                   </div>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
@@ -141,3 +117,28 @@
     <script src="Jscript/main.js"></script>
   </body>
 </html>
+
+
+
+<!---------
+<div class="set">
+                        <label>Month</label><br />
+                        <input type="text" id="month" placeholder="Month in digits" required /><br /><br />
+                        <label>Day</label><br />
+                        <input type="text" id="day" placeholder="Day in digits" required /><br /><br />
+                        <label>Year</label><br />
+                        <input type="text" id="year" placeholder="Year in digits" required /><br /><br />
+                        <label>Gender</label><br />
+                        <input type="radio" name="gender" id="gender" value="male" checked /> Male
+                        <br />
+                        <input type="radio" name="gender" id="gender" value="female" /> Female
+                        <br /><br />
+                        <input type="submit" class="btn-1" value="Submit" onclick="output()" />
+
+                        <div id="outcome"></div>
+                    </div>
+                    <p id="results"></p>
+
+
+
+-->
