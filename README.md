@@ -39,6 +39,9 @@ Go to  [live](https://robbingit.github.io/Akannamegenerator/) site.
 ### Design
 Go to [Design] (https://www.figma.com/file/BQbHJHu4vy4G1J7TuVve4A/akanenamegenerator)
 
+### Support
+For support reach me via Email(robbingithimbo@gmail.com)
+
 ### Licence
 This project is under the  [MIT](LICENSE) licence:<br>
 
