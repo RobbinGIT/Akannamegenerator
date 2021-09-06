@@ -1,10 +1,10 @@
 function output() {
   var year = document.getElementById("year").value;
-  var yy = parseInt(year);
+  var yy = parseInt(year); // using parsint to change string to integer
   var month = document.getElementById("month").value;
-  var mm = parseInt(month);
+  var mm = parseInt(month); // using parsint to change string to integer
   var day = document.getElementById("day").value;
-  var dd = parseInt(day);
+  var dd = parseInt(day); // using parsint to change string to integer
   var cc = (yy - 1) / 100 + 1;
   var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
@@ -12,11 +12,10 @@ function output() {
   var birthday = new Date(mm + "/" + dd + "/" + yy);
   var dayOfTheWeek = birthday.getDay();
   
-   // formula for the Akan Names...source: From IP2 question
+   // using the formal below
    
   var result = parseInt(cc / 4 - 2 * cc - 1 + (5 * yy) / 4 + (26 * (mm + 1)) / 10 + dd) % 7;
   
-
   if (document.getElementById("gender").checked) {
       var gender = "male";
       } else {
