@@ -30,6 +30,7 @@ To acces this project, you need to clone it using these steps;
 1. HTML(Hypertext Mark-up Language)
 2. CSS (Cascading Style Sheet)
 4. Javascript
+5. Bootstrap
 3. Git
 
 ### Live Site
