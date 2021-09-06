@@ -29,10 +29,14 @@ To acces this project, you need to clone it using these steps;
 
 1. HTML(Hypertext Mark-up Language)
 2. CSS (Cascading Style Sheet)
+4. Javascript
 3. Git
 
 ### Live Site
 Go to  [live](https://robbingit.github.io/Akannamegenerator/) site.
+
+### Design
+Go to [Design] (https://www.figma.com/file/BQbHJHu4vy4G1J7TuVve4A/akanenamegenerator)
 
 ### Licence
 This project is under the  [MIT](LICENSE) licence:<br>
