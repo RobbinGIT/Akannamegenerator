@@ -14,27 +14,22 @@ function output() {
   
    // formula for the Akan Names...source: From IP2 question
    
-  var result =
-      parseInt(cc / 4 - 2 * cc - 1 + (5 * yy) / 4 + (26 * (mm + 1)) / 10 + dd) %
-      7;
-
-  
-   // Arithimetic Part...where the magic happens
+  var result = parseInt(cc / 4 - 2 * cc - 1 + (5 * yy) / 4 + (26 * (mm + 1)) / 10 + dd) % 7;
   
 
   if (document.getElementById("gender").checked) {
       var gender = "male";
-  } else {
-      var gender = "female";
-  }
-  if (mm < 1 || mm > 12 || (mm == 2 && dd > 29)) {
-      alert("invalid month");
-    } else if (dd < 1 || dd > 31) {
-        alert("invalid date");
-    }else if (yy < 1900 || yy > 2022) {
-      alert("invalid year");
-    
-    } 
+      } else {
+            var gender = "female";
+      }
+      if (mm < 1 || mm > 12 || (mm == 2 && dd > 29)) {
+            alert("invalid month");
+         } else if (dd < 1 || dd > 31) {
+            alert("invalid date");
+         }else if (yy < 1900 || yy > 2022) {
+            alert("invalid year");
+         
+         } 
     //The Math.round() function returns the value of a number rounded to the nearest integer.
             if (Math.round(result) == 1 && gender === "male") { 
                    document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + ", your akan name is " + maleName[1];    
