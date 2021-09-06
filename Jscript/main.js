@@ -31,9 +31,9 @@ function output() {
          } 
     //The Math.round() function returns the value of a number rounded to the nearest integer.
             if (Math.round(result) == 1 && gender === "male") { 
-                   document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + ", your akan name is " + maleName[1];    
+                   document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + ", Your akan name is " + maleName[1];    
                   } else if (Math.round(result) == 2 && gender === "male") 
-                  { document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + maleName[2];
+                  { document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,Your akan name is " + maleName[2];
                   } else if (Math.round(result) == 3 && gender === "male") { 
                     document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + maleName[3];
                   } else if (Math.round(result) == 4 && gender === "male") { 
