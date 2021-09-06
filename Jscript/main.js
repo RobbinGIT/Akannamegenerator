@@ -30,34 +30,34 @@ function output() {
          
          } 
     //The Math.round() function returns the value of a number rounded to the nearest integer.
-            if (Math.round(result) == 1 && gender === "male") { 
-                   document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + ", Your akan name is " + maleName[1];    
-                  } else if (Math.round(result) == 2 && gender === "male") 
-                  { document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,Your akan name is " + maleName[2];
+            if (Math.round(result) == 0 && gender === "male") { 
+                   document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + ", Your akan name is " + maleName[0];    
+                  } else if (Math.round(result) == 1 && gender === "male") 
+                  { document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,Your akan name is " + maleName[1];
+                  } else if (Math.round(result) == 2 && gender === "male") { 
+                    document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,Your akan name is " + maleName[2];
                   } else if (Math.round(result) == 3 && gender === "male") { 
-                    document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + maleName[3];
-                  } else if (Math.round(result) == 4 && gender === "male") { 
-                    document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + maleName[4];
+                    document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,Your akan name is " + maleName[3];
+                  } else if (Math.round(result) == 4 && gender === "male") {
+                     document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + maleName[4];
                   } else if (Math.round(result) == 5 && gender === "male") {
                      document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + maleName[5];
                   } else if (Math.round(result) == 6 && gender === "male") {
                      document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + maleName[6];
-                  } else if (Math.round(result) == 0 && gender === "male") {
-                     document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + maleName[0];
+                  } else if (Math.round(result) == 0 && gender === "female") {
+                     document.getElementById("results").innerHTML ="Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + femaleName[0];
                   } else if (Math.round(result) == 1 && gender === "female") {
                      document.getElementById("results").innerHTML ="Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + femaleName[1];
                   } else if (Math.round(result) == 2 && gender === "female") {
                      document.getElementById("results").innerHTML ="Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + femaleName[2];
                   } else if (Math.round(result) == 3 && gender === "female") {
-                     document.getElementById("results").innerHTML ="Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + femaleName[3];
+                     document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + femaleName[3];
                   } else if (Math.round(result) == 4 && gender === "female") {
                      document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + femaleName[4];
                   } else if (Math.round(result) == 5 && gender === "female") {
                      document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + femaleName[5];
                   } else if (Math.round(result) == 6 && gender === "female") {
-                     document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + femaleName[6];
-                  } else if (Math.round(result) == 0 && gender === "female") {
-                    document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + femaleName[0];
+                    document.getElementById("results").innerHTML = "Your birthday is " + days[dayOfTheWeek] + "  ,your akan name is " + femaleName[6];
                   } else { alert("All fields are required");
       }
 }
