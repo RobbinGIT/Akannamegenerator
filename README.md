@@ -32,7 +32,7 @@ To acces this project, you need to clone it using these steps;
 3. Git
 
 ### Live Site
-Go to  [live](https://robbingit.github.io//) site
+Go to  [live](https://robbingit.github.io/Akannamegenerator/) site
 
 ### Licence
 This project is under the  [MIT](LICENSE) licence:<br>
