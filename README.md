@@ -21,7 +21,7 @@ The following are requirements in order to continue....
 To acces this project, you need to clone it using these steps;
 1. Open your terminal command prompt for windows.
 2. Change the current working directory to the location where you want the cloned directory.
-3. Type `$ git clone https://github.com/RobbinGIT/StreetFood-website.git`
+3. Type `$ git clone https://github.com/RobbinGIT/Akannamegenerator.git`
 4. `Enter` to create your local clone.
     * This will clone the repositoty into your local folder in your laptop.
 
